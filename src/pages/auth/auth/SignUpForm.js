@@ -24,12 +24,7 @@ const SignUpForm = () => {
   });
   const { username, password1, password2 } = signUpData;
 
-  const [errors, setErrors] = useState({
-    username: [],
-    password1: [],
-    password2: [],
-    non_field_errors: [],
-  });
+  const [errors, setErrors] = useState({});
 
   const history = useHistory();
 
